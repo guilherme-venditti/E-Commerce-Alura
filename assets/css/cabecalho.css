@@ -1,0 +1,31 @@
+.cabecalho {
+   display: flex;
+   height: 10vh;
+   justify-content: space-around;
+   align-items: center;
+
+   background-color: var(--cinza-claro);
+}
+
+.cabecalho__logo {
+    width: 100px;
+    height: 28px;
+    
+}
+
+.cabecalho__botao {
+    width: 40%;
+    max-width: 336px;
+    height: 60%;
+
+    font-size: 14px;
+    color: var(--azul-escuro);
+
+    background-color: var(--cinza-claro);
+    border-color: var(--azul-escuro);
+}
+
+.cabecalho__lupa {
+    width: 5vw;
+    height: 5vh;
+}
