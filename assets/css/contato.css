@@ -38,11 +38,14 @@
 
 .contato__form {
     width: 90%;
+}
 
+.contato__form-form {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .contato__form-titulo {
     margin: 10px 0 10px 0;
    
