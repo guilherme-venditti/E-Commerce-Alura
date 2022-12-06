@@ -15,9 +15,8 @@
     width: 100vw;
 }
 
-.contato__logo {
-    width: 176px;
-    height: 50px;
+.contato__links .logo__titulo {
+    font-size: 1.5rem;
 }
 
 .contato__lista {

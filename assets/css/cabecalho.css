@@ -23,8 +23,20 @@
 .logo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     align-items: center;
+}
+
+.logo__titulo {
+    display: flex;
+
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+.logo__titulo-azul {
+    color: var(--azul-escuro);
 }
 
 
