@@ -15,6 +15,7 @@
 .cabecalho__principal {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
     width: 75%;
     height: 10vh;  
@@ -25,7 +26,10 @@
     flex-direction: column;
     justify-content: center;
 
+    width: 25%;
+
     align-items: center;
+    margin-left: 5px;
 }
 
 .logo__titulo {
@@ -39,21 +43,35 @@
     color: var(--azul-escuro);
 }
 
-
 .busca {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+    height: 50%;
+    width: 50%;
+    padding: 0 7px 0 7px;
+
+    background-color: #ffffff;
+    border-radius: 15px;
 }
 
 .busca__input {
     width: 80%;
-    height: 30%;
+    height: 70%;
+    flex-grow: 3;
+
+    border: none;
+    outline: none;
+
+    font-family: 'Raleway', sans-serif;
 }
 
 .busca__lupa {
-    width: 5vw;
-    height: 5vh;
+    width: 3vw;
+    height: 3vh;
+    
+    flex-grow: 1;
 }
 
 .login {
@@ -62,11 +80,12 @@
 
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cabecalho__botao {
     width: 90%;
-    max-width: 336px;
+    max-width: 182px;
     height: 60%;
 
     font-size: 14px;
