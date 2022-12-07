@@ -55,7 +55,6 @@
     font-weight: bold;
 }
 
-
 .contato__form-input {
     border: none;
     border-radius: 4px;
@@ -68,7 +67,6 @@
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
 }
-
 
 .contato__form-input-mensagem {
     height: 82px;
@@ -87,4 +85,30 @@
     color: var(--cinza-claro);
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    .contato {
+        flex-direction: row;
+    }
+
+    .contato__form-botao {
+        max-width: 165px;
+    }
+
+    .contato__lista:last-child {
+        margin-bottom: 10px;
+    }
+
+    .contato__lista-item {
+        font-size: 1.2rem;
+    }
+
+    .contato__form-input {
+        width: 75%;
+    }
+
+    .contato__form-botao {
+        height: 51px;
+    }
 }
