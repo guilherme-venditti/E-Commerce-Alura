@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif;*/
     --cinza-claro: #dddddd;
     --azul-escuro: #2A7AE4;
     --azul-claro: #EAF2FD;
+    --branco-escuro: #F5F5F5; /*Isso é possível? */
 }
 
 body {

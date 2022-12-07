@@ -1,0 +1,61 @@
+.cabecalho__principal {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 2vw;
+}
+
+.busca {
+    margin-right: 2vw;
+    max-width: 300px;
+}
+
+.login {
+    width: 100%;
+    background-color: var(--branco-escuro);
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+}
+
+.login__form-titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    margin: 1rem;
+    margin-top: 15vh;
+}
+
+.login__input {
+    width: 80%;
+    height: 2rem;
+    margin: 1rem;
+    padding: 5px;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.login__botao {
+    width: 40%;
+    height: 40px;
+    margin-bottom: 15vh;
+    
+    background-color: var(--azul-escuro);
+    border: none;
+
+    color: var(--cinza-claro);
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
