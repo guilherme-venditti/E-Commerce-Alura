@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/cabecalho.css">
     <link rel="stylesheet" href="../assets/css/contato.css">
+    <link rel="stylesheet" href="../assets/css/secao.css">
 </head>
 
 <body>
@@ -28,8 +29,8 @@
                             fill="#2A7AE4" />
                     </svg>
                     <div class="logo__titulo">
-                        <p>Multiver</p>
-                        <p class="logo__titulo-azul">Store</p>
+                        <p class="logo__titulo-azul">Alura</p>
+                        <p>Geek</p>
                     </div>
 
                 </div>
@@ -47,11 +48,37 @@
 
     <main>
         <section class="banner">
-            
-        </section>
-            
-        <section class="produtos">
 
+        </section>
+
+        <section class="produtos">
+            <div class="produtos__secao">
+                <div class="produto__secao-titulo">
+                    <p class="secao__nome">Star Wars</p>
+                    <a href="#" class="secao__verTudo">Ver Tudo</a>
+                </div>
+                <div class="secao__items">
+                    <div class="produto">
+                        <img src="../assets/imgs/products/sw-1.png" alt="Capacete Stormtrooper StarWars"
+                            class="produto__img">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <p class="produto__preco">R$ 60,00</p>
+                        <a href="#" class="produto__verProduto">Ver Produto</a>
+                    </div>
+                    <div class="produto">
+                        <img src="../assets/imgs/products/sw-2.png" class="produto__img">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <p class="produto__preco">R$ 60,00</p>
+                        <a href="#" class="produto__verProduto">Ver Produto</a>
+                    </div>
+                    <div class="produto">
+                        <img src="../assets/imgs/products/sw-3.png" class="produto__img">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <p class="produto__preco">R$ 60,00</p>
+                        <a href="#" class="produto__verProduto">Ver Produto</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -66,8 +93,8 @@
                             fill="#2A7AE4" />
                     </svg>
                     <div class="logo__titulo">
-                        <p>Multiver</p>
-                        <p class="logo__titulo-azul">Store</p>
+                        <p class="logo__titulo-azul">Alura</p>
+                        <p>Geek</p>
                     </div>
                 </div>
                 <ul class="contato__lista">
@@ -85,8 +112,10 @@
             <div class="contato__form">
                 <form class="contato__form-form">
                     <h2 class="contato__form-titulo">Fale Conosco</h2>
-                    <input type="text" name="Nome" id="contato__form-input" class="contato__form-input contato-form-input-nome" placeholder="Nome">
-                    <textarea name="mensagem" placeholder="Escreva sua mensagem" class="contato__form-input contato__form-input-mensagem"></textarea>
+                    <input type="text" name="Nome" id="contato__form-input"
+                        class="contato__form-input contato-form-input-nome" placeholder="Nome">
+                    <textarea name="mensagem" placeholder="Escreva sua mensagem"
+                        class="contato__form-input contato__form-input-mensagem"></textarea>
                     <button class="contato__form-botao">Enviar Mensagem</button>
                 </form>
 

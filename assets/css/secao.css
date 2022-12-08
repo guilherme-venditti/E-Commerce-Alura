@@ -1,0 +1,41 @@
+.produtos__secao {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    align-items: center;
+}
+
+.produto__secao-titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    width: 95%;
+}
+
+.secao__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 90%;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+
+
+    margin: 25px 15px;
+    
+    width: 40vw;
+    max-width: 176px;
+}
+
+.produto__img {
+    max-width: 176px;
+    height: 174px;
+}
